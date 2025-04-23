@@ -5,3 +5,7 @@
 .tb {
   @apply border border-red-400;
 }
+
+.container-main {
+  @apply container mx-auto px-4 py-2;
+}

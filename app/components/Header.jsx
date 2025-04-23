@@ -12,11 +12,11 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="w-full border-b border-gray-200">
-      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+    <header className="w-full border-b border-gray-200 ">
+      <div className="container mx-auto px-4 py-2 flex  items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <div className="relative h-12 w-24 mr-2">
+          <div className="relative h-12 w-24 mr-2 ">
             <Image
               src={Logo}
               alt="Fresh Health Logo"
