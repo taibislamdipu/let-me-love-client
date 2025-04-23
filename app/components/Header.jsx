@@ -68,7 +68,7 @@ export default function Header() {
                 </div>
               </Link>
               <div className="border p-1 border-gray-300 rounded-md">
-                <AiOutlineMenu size={46} />
+                <AiOutlineMenu size={36} />
               </div>
             </div>
           </header>
