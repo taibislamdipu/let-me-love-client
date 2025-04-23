@@ -26,7 +26,7 @@ export default function Header() {
             />
           </div>
           <div className="flex flex-col">
-            <span className="font-semibold text-[#FF00FF]">Let Me Love</span>
+            <span className="font-semibold text-brand">Let Me Love</span>
             <span className="text-xs text-gray-500">We care for all</span>
           </div>
         </Link>
