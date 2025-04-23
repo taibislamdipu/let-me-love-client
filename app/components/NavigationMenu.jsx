@@ -8,15 +8,12 @@ import {
 export default function NavigationMenu() {
   return (
     <div className="flex items-center space-x-6">
-      <Link href="/shop" className="flex flex-col items-center text-sm">
+      <Link href="#" className="flex flex-col items-center text-sm">
         <LuShoppingBag size={23} className=" text-gray-700" />
         <span>Shop</span>
       </Link>
 
-      <Link
-        href="/cart"
-        className="flex flex-col items-center text-sm relative"
-      >
+      <Link href="#" className="flex flex-col items-center text-sm relative">
         <div className="relative">
           <LuShoppingCart size={23} className=" text-gray-700" />
 
@@ -27,7 +24,7 @@ export default function NavigationMenu() {
         <span>Cart</span>
       </Link>
 
-      <Link href="/account" className="flex flex-col items-center text-sm">
+      <Link href="#" className="flex flex-col items-center text-sm">
         <LuCircleUserRound size={23} className=" text-gray-700" />
         <span>Account</span>
       </Link>
