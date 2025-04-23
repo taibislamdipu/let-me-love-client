@@ -7,9 +7,9 @@ export default function BestSeller() {
       id: 1,
       name: "Renee midnight kohl kajal pencil",
       image: "https://i.ibb.co.com/N23c19b8/renee-midnight-khol-kajol.jpg",
-      currentPrice: 562.5,
-      originalPrice: 750.0,
-      discount: "25%",
+      currentPrice: 860,
+      originalPrice: 1000,
+      discount: "25% off",
     },
     {
       id: 2,
@@ -87,16 +87,16 @@ export default function BestSeller() {
                   <span className="text-gray-500 line-through text-sm ml-2">
                     ৳{product.originalPrice.toFixed(2)}
                   </span>
-                  {product.discount && !product.isSpecial && (
+                  {/* {product.discount && !product.isSpecial && (
                     <span className="ml-2 text-green-600">
                       - {product.discount}
                     </span>
-                  )}
-                  {product.isSpecial && (
+                  )} */}
+                  {/* {product.isSpecial && (
                     <span className="ml-2 text-green-600">
                       - {product.discount}
                     </span>
-                  )}
+                  )} */}
                 </div>
                 <div className="flex flex-col md:flex-row gap-2">
                   <button className="p-2 border group border-green-600 transition rounded-md hover:bg-green-600 flex gap-1 hover:text-white">
