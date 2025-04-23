@@ -30,7 +30,7 @@ export default function Categories() {
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {categories.map((category) => (
           <Link
-            href={`/category/${category.slug}`}
+            href="#"
             key={category.id}
             className="border border-gray-200 rounded-md overflow-hidden hover:shadow-md transition-shadow duration-300"
           >

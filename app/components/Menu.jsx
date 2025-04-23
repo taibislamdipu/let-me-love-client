@@ -1,8 +1,8 @@
 export default function Menu() {
   const menu = [
-    { name: "Skin Care", href: "/skincare" },
-    { name: "Perfume", href: "/perfume" },
-    { name: "More", href: "/more" },
+    { name: "Skin Care", href: "#" },
+    { name: "Perfume", href: "#" },
+    { name: "More", href: "#" },
   ];
 
   return (
