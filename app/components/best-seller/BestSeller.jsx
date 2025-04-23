@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { LuShoppingCart } from "react-icons/lu";
 
 export default function BestSeller() {
@@ -198,9 +199,10 @@ export default function BestSeller() {
       <div className="relative">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {products.map((product) => (
-            <div
+            <Link
+              href="#"
               key={product.id}
-              className="border border-gray-200 rounded-lg overflow-hidden bg-white"
+              className="border border-gray-200 rounded-lg overflow-hidden bg-white hover:shadow-md transition duration-300"
             >
               <div className="relative h-64 w-full">
                 {product.discount && (
@@ -256,7 +258,7 @@ export default function BestSeller() {
                   </button>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
