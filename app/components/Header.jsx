@@ -1,5 +1,6 @@
 import {
   LuCircleUserRound,
+  LuSearch,
   LuShoppingBag,
   LuShoppingCart,
 } from "react-icons/lu";
@@ -38,7 +39,7 @@ export default function Header() {
               placeholder="Search Product"
               className="w-full py-2 px-4 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-teal-500"
             />
-            {/* <Search className="absolute right-3 top-2.5 h-5 w-5 text-gray-400" /> */}
+            <LuSearch className="absolute right-3 top-2.5 h-5 w-5 text-gray-400" />
           </div>
         </div>
 
