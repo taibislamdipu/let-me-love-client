@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { MdOutlineMenu } from "react-icons/md";
+import { AiOutlineMenu } from "react-icons/ai";
 import NavigationMenu from "./NavigationMenu";
 import SearchBar from "./SearchBar";
 import Logo from "/public/logo.jpg";
@@ -68,7 +68,7 @@ export default function Header() {
                 </div>
               </Link>
               <div className="border p-1 border-gray-300 rounded-md">
-                <MdOutlineMenu size={46} />
+                <AiOutlineMenu size={46} />
               </div>
             </div>
           </header>
