@@ -7,7 +7,7 @@ export default function FeatureCards() {
     <div className="container mx-auto px-4 py-12">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         {/* Free Shipping Card */}
-        <div className="flex items-center space-x-4 rounded-md border border-gray-200 p-6">
+        <div className="flex items-center space-x-4 rounded-md border border-green-600 p-6">
           <div className="flex-shrink-0">
             <MdOutlineLocalShipping className="h-10 w-10 text-rose-500" />
           </div>
@@ -18,7 +18,7 @@ export default function FeatureCards() {
         </div>
 
         {/* Money Returns Card */}
-        <div className="flex items-center space-x-4 rounded-md border border-gray-200 p-6">
+        <div className="flex items-center space-x-4 rounded-md border border-green-600 p-6">
           <div className="flex-shrink-0">
             <FiRefreshCcw className="h-10 w-10 text-rose-500" />
           </div>
@@ -29,7 +29,7 @@ export default function FeatureCards() {
         </div>
 
         {/* 24/7 Support Card */}
-        <div className="flex items-center space-x-4 rounded-md border border-gray-200 p-6">
+        <div className="flex items-center space-x-4 rounded-md border border-green-600 p-6">
           <div className="flex-shrink-0">
             <LuClock className="h-10 w-10 text-rose-500" />
           </div>

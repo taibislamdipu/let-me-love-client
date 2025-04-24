@@ -152,8 +152,8 @@ export default function Footer() {
       {/* Copyright */}
       <div className="bg-gray-100 py-4 text-center text-gray-600">
         <p>
-          © 2025 All Rights Reserved - Easy Health BD - An E-commerce Shopping
-          mall
+          © 2025 All Rights Reserved - Let Me Love - Beauty Products for Women
+          in Bangladesh – Skincare, Perfume & More
         </p>
       </div>
     </footer>
