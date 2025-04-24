@@ -135,7 +135,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="bg-gray-100 py-4 text-center text-gray-600">
+      <div className="bg-gray-100 p-6 text-center text-gray-600">
         <p>
           © 2025 All Rights Reserved - Let Me Love - Beauty Products for Women
           in Bangladesh – Skincare, Perfume & More
