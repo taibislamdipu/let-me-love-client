@@ -5,7 +5,8 @@
     "image": "https://i.ibb.co/N23c19b8/renee-midnight-khol-kajol.jpg",
     "currentPrice": 860,
     "originalPrice": 1000,
-    "discount": "25% off"
+    "discount": "25% off",
+    "bestseller": true
   },
   {
     "id": 2,
@@ -14,7 +15,8 @@
     "currentPrice": 750,
     "originalPrice": 1150,
     "discount": "৳400.00",
-    "specialColor": "bg-red-500"
+    "specialColor": "bg-red-500",
+    "bestseller": true
   },
   {
     "id": 3,
@@ -22,7 +24,8 @@
     "image": "https://i.ibb.co/BHng3kKb/streax.jpg",
     "currentPrice": 562.5,
     "originalPrice": 750,
-    "discount": "25%"
+    "discount": "25%",
+    "bestseller": true
   },
   {
     "id": 4,
@@ -31,7 +34,8 @@
     "currentPrice": 750,
     "originalPrice": 1150,
     "discount": "৳400.00",
-    "specialColor": "bg-red-500"
+    "specialColor": "bg-red-500",
+    "bestseller": true
   },
   {
     "id": 5,
@@ -40,6 +44,7 @@
     "currentPrice": 750,
     "originalPrice": 1150,
     "discount": "৳400.00",
-    "specialColor": "bg-red-500"
+    "specialColor": "bg-red-500",
+    "bestseller": true
   }
 ]
