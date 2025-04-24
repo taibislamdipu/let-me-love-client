@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
       key={product.id}
       className="overflow-hidden rounded-lg border border-gray-200 bg-white transition duration-300 hover:shadow-md"
     >
-      <div className="relative h-48 w-full bg-gray-100 md:h-64">
+      <div className="relative h-48 w-full bg-gray-50 md:h-64">
         {/* {product.discount && (
           <div
             className={`absolute left-2 top-2 ${product.specialColor || "bg-red-500"} z-10 rounded-md px-2 py-1 text-white`}
