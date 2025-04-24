@@ -63,7 +63,7 @@ export default function Footer() {
 
               <div className="flex items-start space-x-2">
                 <CiLocationOn className="mt-1 h-5 w-5 flex-shrink-0" />
-                <p>G3, Motijheel Colony, Dhaka.</p>
+                <p>Motijheel, Rajarbag, Dhaka - 1000, Bangladesh</p>
               </div>
 
               <div className="flex items-center space-x-2">
