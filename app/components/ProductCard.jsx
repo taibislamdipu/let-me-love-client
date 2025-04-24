@@ -6,6 +6,7 @@ export default function ProductCard({ product }) {
     <Link
       href="#"
       key={product.id}
+      draggable={false}
       className="md:border-gay-200 overflow-hidden rounded-lg bg-white transition duration-300 md:border md:hover:shadow-md"
     >
       <div className="relative h-48 w-full rounded-lg bg-gray-50 md:h-64 md:bg-white">
@@ -26,6 +27,7 @@ export default function ProductCard({ product }) {
           src={product.image || "/placeholder.svg"}
           alt={product.name}
           fill
+          draggable={false}
           className="object-contain"
         />
       </div>

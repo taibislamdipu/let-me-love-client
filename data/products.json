@@ -10,21 +10,77 @@
   },
   {
     "id": 2,
-    "name": "Swiss Beauty holographic eyeliner milky way",
-    "image": "https://i.ibb.co.com/hFNfyMt1/swiss-beauty-holographic-eyeliner-milky-way-removebg-preview.png",
+    "name": "Streax Hair Serum 115ml",
+    "image": "https://i.ibb.co.com/WN1Hqhjb/streax-removebg-preview.png",
     "currentPrice": 750,
-    "originalPrice": 1150,
-    "discount": "৳400.00",
-    "specialColor": "bg-red-500",
+    "originalPrice": 800,
+    "discount": "25%",
     "bestseller": true
   },
   {
     "id": 3,
-    "name": "Streax Hair Serum 115ml",
-    "image": "https://i.ibb.co.com/WN1Hqhjb/streax-removebg-preview.png",
-    "currentPrice": 562.5,
-    "originalPrice": 750,
-    "discount": "25%",
-    "bestseller": true
+    "name": "Swiss Beauty holographic eyeliner milky way",
+    "image": "https://res.cloudinary.com/dd3itieni/image/upload/v1745482315/Let%20Me%20Love/products/swiss%20beauty/milky-way_vopona.png",
+    "currentPrice": 750,
+    "originalPrice": 850,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500",
+    "bestseller": true,
+    "shade": "milky way"
+  },
+  {
+    "id": 4,
+    "name": "Swiss Beauty holographic eyeliner Stardust",
+    "image": "https://res.cloudinary.com/dd3itieni/image/upload/v1745482316/Let%20Me%20Love/products/swiss%20beauty/Stardust_xeemme.png",
+    "currentPrice": 750,
+    "originalPrice": 850,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500",
+    "bestseller": false,
+    "shade": "Stardust"
+  },
+  {
+    "id": 5,
+    "name": "Swiss Beauty holographic eyeliner Nebula",
+    "image": "https://res.cloudinary.com/dd3itieni/image/upload/v1745482316/Let%20Me%20Love/products/swiss%20beauty/Nebula_odc5fs.png",
+    "currentPrice": 750,
+    "originalPrice": 850,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500",
+    "bestseller": false,
+    "shade": "Nebula"
+  },
+  {
+    "id": 6,
+    "name": "Swiss Beauty holographic eyeliner Nouthern Light",
+    "image": "https://res.cloudinary.com/dd3itieni/image/upload/v1745482315/Let%20Me%20Love/products/swiss%20beauty/Nouthern_Light_tcodqu.png",
+    "currentPrice": 750,
+    "originalPrice": 850,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500",
+    "bestseller": false,
+    "shade": "Nouthern_Light"
+  },
+  {
+    "id": 7,
+    "name": "Swiss Beauty holographic eyeliner Coloured Earth",
+    "image": "https://res.cloudinary.com/dd3itieni/image/upload/v1745482315/Let%20Me%20Love/products/swiss%20beauty/Coloured_Earth_erf25t.png",
+    "currentPrice": 750,
+    "originalPrice": 850,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500",
+    "bestseller": false,
+    "shade": "Coloured Earth"
+  },
+  {
+    "id": 7,
+    "name": "Swiss Beauty holographic eyeliner Meteor",
+    "image": "https://res.cloudinary.com/dd3itieni/image/upload/v1745482315/Let%20Me%20Love/products/swiss%20beauty/Meteor_lyumcn.png",
+    "currentPrice": 750,
+    "originalPrice": 850,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500",
+    "bestseller": false,
+    "shade": "Meteor"
   }
 ]
