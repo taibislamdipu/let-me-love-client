@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { LuShoppingCart } from "react-icons/lu";
 
 export default function ProductCard({ product }) {
   return (
@@ -31,7 +30,7 @@ export default function ProductCard({ product }) {
         />
       </div>
 
-      <div className="p-4">
+      <div className="p-0 md:p-4">
         <h3 className="mb-2 line-clamp-2 h-12 font-medium text-gray-800">
           {product.name}
         </h3>
@@ -43,7 +42,7 @@ export default function ProductCard({ product }) {
             ৳{product.originalPrice.toFixed(2)}
           </span>
         </div>
-        <div className="flex flex-col gap-2 md:flex-row">
+        {/* <div className="flex flex-col gap-2 md:flex-row">
           <button className="group flex gap-1 rounded-md border border-green-600 p-2 transition hover:bg-green-600 hover:text-white">
             <LuShoppingCart className="h-5 w-5 text-green-600 transition group-hover:text-white" />
             Add to Cart
@@ -51,7 +50,7 @@ export default function ProductCard({ product }) {
           <button className="flex-1 rounded-md border border-green-600 bg-white px-4 py-2 text-green-600 transition hover:bg-green-600 hover:text-white">
             Buy Now
           </button>
-        </div>
+        </div> */}
       </div>
     </Link>
   );
