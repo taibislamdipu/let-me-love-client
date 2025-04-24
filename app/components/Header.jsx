@@ -17,10 +17,10 @@ export default function Header() {
     <>
       {isDesktopOrLaptop && (
         <header className="w-full border-b border-gray-200">
-          <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+          <div className="container mx-auto flex items-center justify-between px-4 py-2">
             {/* Logo */}
             <Link href="/" className="flex items-center">
-              <div className="relative h-12 md:w-24 w-12 mr-2 ">
+              <div className="relative mr-2 h-12 w-12 md:w-24">
                 <Image
                   src={Logo}
                   alt="Fresh Health Logo"
@@ -37,10 +37,8 @@ export default function Header() {
               </div>
             </Link>
 
-            {/* Search Bar */}
             <SearchBar />
 
-            {/* Navigation Menu */}
             <NavigationMenu />
           </div>
         </header>
@@ -48,10 +46,10 @@ export default function Header() {
 
       {!isDesktopOrLaptop && (
         <>
-          <header className="w-full border-b border-gray-200 ">
-            <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+          <header className="w-full border-b border-gray-200">
+            <div className="container mx-auto flex items-center justify-between px-4 py-2">
               <Link href="/" className="flex items-center">
-                <div className="relative h-12 md:w-24 w-12 mr-2 ">
+                <div className="relative mr-2 h-12 w-12 md:w-24">
                   <Image
                     src={Logo}
                     alt="Fresh Health Logo"
@@ -67,13 +65,13 @@ export default function Header() {
                   </span>
                 </div>
               </Link>
-              <div className="border p-1 border-gray-300 rounded-md">
+              <div className="rounded-md border border-gray-300 p-1">
                 <AiOutlineMenu size={36} />
               </div>
             </div>
           </header>
 
-          <div className="py-2 w-full">
+          <div className="w-full py-2">
             <SearchBar />
           </div>
         </>

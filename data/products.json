@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Renee midnight kohl kajal pencil",
+    "image": "https://i.ibb.co/N23c19b8/renee-midnight-khol-kajol.jpg",
+    "currentPrice": 860,
+    "originalPrice": 1000,
+    "discount": "25% off"
+  },
+  {
+    "id": 2,
+    "name": "Swiss Beauty holographic eyeliner milky way",
+    "image": "https://i.ibb.co/zV7ffxvT/swiss-beauty-holographic-eyeliner-milky-way.webp",
+    "currentPrice": 750,
+    "originalPrice": 1150,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500"
+  },
+  {
+    "id": 3,
+    "name": "Streax Hair Serum 115ml",
+    "image": "https://i.ibb.co/BHng3kKb/streax.jpg",
+    "currentPrice": 562.5,
+    "originalPrice": 750,
+    "discount": "25%"
+  },
+  {
+    "id": 4,
+    "name": "Swiss Beauty holographic eyeliner milky way",
+    "image": "https://i.ibb.co/zV7ffxvT/swiss-beauty-holographic-eyeliner-milky-way.webp",
+    "currentPrice": 750,
+    "originalPrice": 1150,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500"
+  },
+  {
+    "id": 5,
+    "name": "Swiss Beauty holographic eyeliner milky way",
+    "image": "https://i.ibb.co/zV7ffxvT/swiss-beauty-holographic-eyeliner-milky-way.webp",
+    "currentPrice": 750,
+    "originalPrice": 1150,
+    "discount": "৳400.00",
+    "specialColor": "bg-red-500"
+  }
+]
