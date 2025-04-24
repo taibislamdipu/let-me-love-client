@@ -7,6 +7,35 @@ import bkashLogo from "/public/bkash.svg";
 import Logo from "/public/logo.jpg";
 
 export default function Footer() {
+  const usefulLinks = [
+    { text: "About Us", href: "#" },
+    { text: "Privacy Policy", href: "#" },
+    { text: "Cookie Policy", href: "#" },
+    { text: "Terms & Conditions", href: "#" },
+    { text: "Why Shop With Us", href: "#" },
+  ];
+
+  const helpLinks = [
+    { text: "Payment", href: "#" },
+    { text: "Shipping", href: "#" },
+    { text: "Return And Replacement", href: "#" },
+    { text: "Chat With Us", href: "#" },
+    { text: "Support", href: "#" },
+  ];
+
+  const socialLinks = [
+    {
+      text: "Facebook",
+      href: "https://www.facebook.com/letmelovebd",
+      icon: <FaFacebookF size={22} />,
+    },
+    {
+      text: "Instagram",
+      href: "https://www.instagram.com/letmelovebd",
+      icon: <FaInstagram size={23} />,
+    },
+  ];
+
   return (
     <footer>
       {/* Main Footer */}
@@ -47,31 +76,13 @@ export default function Footer() {
             <div>
               <h3 className="mb-4 text-xl font-bold">USEFUL LINKS</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link href="/about-us" className="hover:underline">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/privacy-policy" className="hover:underline">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/cookie-policy" className="hover:underline">
-                    Cookie Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/terms" className="hover:underline">
-                    Terms & Conditions
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/why-shop" className="hover:underline">
-                    Why Shop With Us
-                  </Link>
-                </li>
+                {usefulLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="hover:underline">
+                      {link.text}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -79,31 +90,13 @@ export default function Footer() {
             <div>
               <h3 className="mb-4 text-xl font-bold">HELP</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link href="/payment" className="hover:underline">
-                    Payment
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/shipping" className="hover:underline">
-                    Shipping
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/return" className="hover:underline">
-                    Return And Replacement
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/chat" className="hover:underline">
-                    Chat With Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/support" className="hover:underline">
-                    Support
-                  </Link>
-                </li>
+                {helpLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="hover:underline">
+                      {link.text}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -111,26 +104,18 @@ export default function Footer() {
             <div>
               <h3 className="mb-4 text-xl font-bold">SOCIAL</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link
-                    href="https://www.facebook.com/letmelovebd"
-                    className="flex items-center gap-1 hover:underline"
-                    target="_blank"
-                  >
-                    <FaFacebookF size={23} />
-                    Facebook
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://www.instagram.com/letmelovebd"
-                    className="flex items-center gap-1 hover:underline"
-                    target="_blank"
-                  >
-                    <FaInstagram size={23} />
-                    Instagram
-                  </Link>
-                </li>
+                {socialLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="flex items-center gap-1 hover:underline"
+                      target="_blank"
+                    >
+                      {link.icon}
+                      {link.text}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
