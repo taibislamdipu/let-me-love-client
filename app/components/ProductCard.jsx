@@ -6,7 +6,7 @@ export default function ProductCard({ product }) {
     <Link
       href="#"
       key={product.id}
-      className="overflow-hidden rounded-lg border border-gray-200 bg-white transition duration-300 hover:shadow-md"
+      className="overflow-hidden rounded-lg border border-none bg-white transition duration-300 hover:shadow-md md:border-red-400"
     >
       <div className="relative h-48 w-full bg-gray-50 md:h-64 md:bg-white">
         {/* {product.discount && (
